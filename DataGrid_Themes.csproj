@@ -36,37 +36,37 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Data.WPF">
-      <HintPath>packages\Syncfusion.Data.WPF.18.3.0.35\lib\net46\Syncfusion.Data.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Data.WPF.19.1.0.55\lib\net46\Syncfusion.Data.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Grid.WPF">
-      <HintPath>packages\Syncfusion.Grid.WPF.18.3.0.35\lib\net46\Syncfusion.Grid.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Grid.WPF.19.1.0.55\lib\net46\Syncfusion.Grid.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.GridCommon.WPF">
-      <HintPath>packages\Syncfusion.GridCommon.Wpf.18.3.0.35\lib\net46\Syncfusion.GridCommon.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.GridCommon.Wpf.19.1.0.55\lib\net46\Syncfusion.GridCommon.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Licensing">
-      <HintPath>packages\Syncfusion.Licensing.18.3.0.35\lib\net46\Syncfusion.Licensing.dll</HintPath>
+      <HintPath>packages\Syncfusion.Licensing.19.1.0.55\lib\net46\Syncfusion.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Linq.Base">
-      <HintPath>packages\Syncfusion.Linq.Base.18.3.0.35\lib\net46\Syncfusion.Linq.Base.dll</HintPath>
+      <HintPath>packages\Syncfusion.Linq.Base.19.1.0.55\lib\net46\Syncfusion.Linq.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfGrid.WPF">
-      <HintPath>packages\Syncfusion.SfGrid.WPF.18.3.0.35\lib\net46\Syncfusion.SfGrid.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfGrid.WPF.19.1.0.55\lib\net46\Syncfusion.SfGrid.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfInput.WPF">
-      <HintPath>packages\Syncfusion.SfInput.WPF.18.3.0.35\lib\net46\Syncfusion.SfInput.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfInput.WPF.19.1.0.55\lib\net46\Syncfusion.SfInput.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfShared.WPF">
-      <HintPath>packages\Syncfusion.SfShared.WPF.18.3.0.35\lib\net46\Syncfusion.SfShared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfShared.WPF.19.1.0.55\lib\net46\Syncfusion.SfShared.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfSkinManager.WPF">
-      <HintPath>packages\Syncfusion.SfSkinManager.WPF.18.3.0.35\lib\net46\Syncfusion.SfSkinManager.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.SfSkinManager.WPF.19.1.0.55\lib\net46\Syncfusion.SfSkinManager.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Shared.WPF">
-      <HintPath>packages\Syncfusion.Shared.WPF.18.3.0.35\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
+      <HintPath>packages\Syncfusion.Shared.WPF.19.1.0.55\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Themes.MaterialDark.WPF">
-      <HintPath>packages\Syncfusion.Themes.MaterialDark.WPF.18.3.0.35\lib\net46\Syncfusion.Shared.WPF.dll</HintPath>
+    <Reference Include="Syncfusion.Themes.FluentDark.WPF">
+      <HintPath>packages\Syncfusion.Themes.FluentDark.WPF.19.1.0.55\lib\net46\Syncfusion.Themes.FluentDark.WPF.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />

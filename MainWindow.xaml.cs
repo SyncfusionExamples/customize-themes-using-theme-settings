@@ -6,7 +6,7 @@
 // applicable laws. 
 #endregion
 using Syncfusion.SfSkinManager;
-using Syncfusion.Themes.MaterialDark.WPF;
+using Syncfusion.Themes.FluentDark.WPF;
 using Syncfusion.Windows.Shared;
 using System;
 using System.Collections.Generic;
@@ -31,17 +31,18 @@ namespace DataGrid_Themes
     {
         public MainWindow()
         {
-            MaterialDarkThemeSettings materialDarkThemeSettings = new MaterialDarkThemeSettings();
-            materialDarkThemeSettings.PrimaryBackground = new SolidColorBrush(Colors.Red);
-            materialDarkThemeSettings.PrimaryForeground = new SolidColorBrush(Colors.AntiqueWhite);
-            materialDarkThemeSettings.BodyFontSize = 15;
-            materialDarkThemeSettings.HeaderFontSize = 18;
-            materialDarkThemeSettings.SubHeaderFontSize = 17;
-            materialDarkThemeSettings.TitleFontSize = 17;
-            materialDarkThemeSettings.SubTitleFontSize = 16;
-            materialDarkThemeSettings.FontFamily = new FontFamily("Callibri");
-            SfSkinManager.RegisterThemeSettings("MaterialDark", materialDarkThemeSettings);
-            SfSkinManager.SetTheme(this, new Theme("MaterialDark"));
+            FluentDarkThemeSettings fluentDarkThemeSettings = new FluentDarkThemeSettings();
+            fluentDarkThemeSettings.PrimaryBackground = new SolidColorBrush(Colors.Red);
+            fluentDarkThemeSettings.PrimaryForeground = new SolidColorBrush(Colors.AntiqueWhite);
+            fluentDarkThemeSettings.BodyFontSize = 15;
+            fluentDarkThemeSettings.HeaderFontSize = 18;
+            fluentDarkThemeSettings.SubHeaderFontSize = 17;
+            fluentDarkThemeSettings.TitleFontSize = 17;
+            fluentDarkThemeSettings.SubTitleFontSize = 16;
+            fluentDarkThemeSettings.BodyAltFontSize = 15;
+            fluentDarkThemeSettings.FontFamily = new FontFamily("Callibri");
+            SfSkinManager.RegisterThemeSettings("FluentDark", fluentDarkThemeSettings);
+            SfSkinManager.SetTheme(this, new Theme("FluentDark"));
             InitializeComponent();            
         }        
     }
