@@ -6,7 +6,7 @@
 // applicable laws. 
 #endregion
 using Syncfusion.SfSkinManager;
-using Syncfusion.Themes.FluentDark.WPF;
+using Syncfusion.Themes.Windows11Light.WPF;
 using Syncfusion.Windows.Shared;
 using System;
 using System.Collections.Generic;
@@ -27,23 +27,25 @@ namespace DataGrid_Themes
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : ChromelessWindow
+    public partial class MainWindow : Window
     {
         public MainWindow()
         {
-            FluentDarkThemeSettings fluentDarkThemeSettings = new FluentDarkThemeSettings();
-            fluentDarkThemeSettings.PrimaryBackground = new SolidColorBrush(Colors.Red);
-            fluentDarkThemeSettings.PrimaryForeground = new SolidColorBrush(Colors.AntiqueWhite);
-            fluentDarkThemeSettings.BodyFontSize = 15;
-            fluentDarkThemeSettings.HeaderFontSize = 18;
-            fluentDarkThemeSettings.SubHeaderFontSize = 17;
-            fluentDarkThemeSettings.TitleFontSize = 17;
-            fluentDarkThemeSettings.SubTitleFontSize = 16;
-            fluentDarkThemeSettings.BodyAltFontSize = 15;
-            fluentDarkThemeSettings.FontFamily = new FontFamily("Callibri");
-            SfSkinManager.RegisterThemeSettings("FluentDark", fluentDarkThemeSettings);
-            SfSkinManager.SetTheme(this, new Theme("FluentDark"));
-            InitializeComponent();            
+            Windows11LightThemeSettings windows11LightThemeSettings = new Windows11LightThemeSettings();
+            windows11LightThemeSettings.PrimaryBackground = new SolidColorBrush(Colors.Red);
+            windows11LightThemeSettings.PrimaryForeground = new SolidColorBrush(Colors.AntiqueWhite);
+            windows11LightThemeSettings.BodyFontSize = 15;
+            windows11LightThemeSettings.HeaderFontSize = 18;
+            windows11LightThemeSettings.SubHeaderFontSize = 17;
+            windows11LightThemeSettings.TitleFontSize = 17;
+            windows11LightThemeSettings.SubTitleFontSize = 16;
+            windows11LightThemeSettings.BodyAltFontSize = 15;
+            windows11LightThemeSettings.FontFamily = new FontFamily("Callibri");
+            SfSkinManager.RegisterThemeSettings("Windows11Light", windows11LightThemeSettings);
+            SfSkinManager.ApplyThemeAsDefaultStyle = true;
+            SfSkinManager.SetTheme(this, new Theme("Windows11Light"));
+            InitializeComponent();
+            
         }        
     }
 }
