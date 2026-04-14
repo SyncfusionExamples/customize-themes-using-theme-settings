@@ -1,12 +1,10 @@
 # How to customize themes using WPF SkinManager?
 
-This sample loads [Datagrid](https://help.syncfusion.com/wpf/datagrid/getting-started) and Window with custom theme look using SkinManager Theme and register theme settings support.
-
-![Datagrid with custom theme](Images/Output.png)
-
-## Overview
+This sample loads [Datagrid](https://help.syncfusion.com/wpf/datagrid/getting-started) and Window with custom theme look using SkinManager Theme and register theme settings support. Find the few details about the SfSkinManager below,
 
 The WPF SkinManager provides a powerful theming engine that allows developers to create stunning, consistent user interfaces across their entire application. This sample demonstrates how to apply custom themes to Syncfusion WPF controls, specifically focusing on the DataGrid component.
+
+![Datagrid with custom theme](Images/Output.png)
 
 ## Features Demonstrated
 
